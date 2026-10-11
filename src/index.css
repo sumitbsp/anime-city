@@ -1,0 +1,139 @@
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: #1a2246;
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 20px rgba(49, 46, 129, 0.25);
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #312e81;
+}
+
+.picker {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.picker span {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.picker select {
+  min-width: 170px;
+  padding: 6px 10px;
+  border: 1px solid #c7d2fe;
+  border-radius: 8px;
+  background: #fff;
+  color: #1e1b4b;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.controls-hint {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(8px);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  color: #312e81;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.controls-hint kbd {
+  display: inline-block;
+  min-width: 1.4em;
+  margin-right: 2px;
+  padding: 1px 5px;
+  border: 1px solid #c7d2fe;
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  background: #fff;
+  font: 600 12px/1.4 ui-monospace, monospace;
+  text-align: center;
+}
+
+.location {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+  max-width: 46vw;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 20px rgba(49, 46, 129, 0.25);
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #312e81;
+  text-align: right;
+  pointer-events: none;
+}
+
+.location-area {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.location-place {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.location-street {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(49, 46, 129, 0.15);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.attribution {
+  position: absolute;
+  right: 8px;
+  bottom: 6px;
+  z-index: 10;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 10px;
+  color: #333;
+  pointer-events: none;
+}
