@@ -4,6 +4,12 @@ A small 3D walking game in the browser, drawn in a toon/anime style. Pick a char
 
 Built with React, [three.js](https://threejs.org) and [React Three Fiber](https://r3f.docs.pmnd.rs). Every character and building is generated in code; there are no 3D model files.
 
+| Kapil Nagar, Bilaspur at sunset | Muktidham gate |
+| --- | --- |
+| ![Aerial view of Kapil Nagar at sunset: flat-roofed houses, water tanks, power lines and the pond](docs/screenshots/kapil-nagar-aerial.png) | ![The Muktidham entrance gate with a Hindi and English sign](docs/screenshots/kapil-nagar-muktidham.png) |
+| **Anime City at sunset (Goku)** | **Anime City at night (Pingu)** |
+| ![Goku on a city street at sunset with neon signs, shops and traffic](docs/screenshots/anime-city-sunset.png) | ![Pingu on the city street at night with glowing neon and lit windows](docs/screenshots/anime-city-night.png) |
+
 ## Quick start
 
 Requires Node.js 18 or newer.
